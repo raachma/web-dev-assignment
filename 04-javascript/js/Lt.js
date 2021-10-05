@@ -29,39 +29,3 @@ document.querySelector("#push").onclick = function () {
     document.querySelector("#R input").value = "";
   }
 };
-// // mengambil element html
-// const inputItem = document.getElementById("input-item");
-// const btnAddItem = document.getElementById("btn-add-item");
-// const listContainer = document.querySelector(".list");
-
-// btpAddItem.addEventListener("clik", (Event) => {
-//   const item = inputItem.value;
-
-//   // membuat element
-//   const listItem = document.createElement("li");
-//   const textItem = document.createElement("p");
-//   const btnDelete = document.createEvent("button");
-
-//   // handle error
-//   if (item == "") {
-//     alert("Item name can't be blank");
-//     inputItem.focus();
-//     return;
-//   }
-//   // add attribute
-//   listItem.classList.add("list-item"); // add class
-//   btnDelete.textCotent = "Delete"; //add value
-//   textItem.textContent = item;
-
-//   // combine elements
-//   listItem.append(textItem, btnDelete);
-//   listContainer.appendChild(listItem);
-
-//   // handle delete
-//   btnDelete.addEventListener("click", () => {
-//     listContainer.removeChild(listItem);
-//   });
-
-//   inputItem.value = "";
-//   inputItem.focus();
-// });
