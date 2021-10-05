@@ -1,0 +1,23 @@
+.darkmode {
+  background: black;
+  color: white;
+}
+.darkmode button {
+  background: rgb(150, 149, 149);
+}
+.icon {
+  cursor: pointer;
+}
+.nav-color {
+  background: black;
+}
+.box-btn {
+  background: rgb(163, 161, 159);
+}
+
+/*.navbar {
+  background: white;*/
+
+.navbar {
+  background-color: grey;
+}

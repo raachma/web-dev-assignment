@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #ebbbb1, #bfbfbf);
+}
+.container {
+  width: 40%;
+  min-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 30px 40px;
+}
+.h1 {
+  text-align: center;
+  font-family: "Georgia", sans-serif;
+  font-size: 80px;
+  font-weight: 50;
+}
+#R {
+  position: relative;
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+#R input {
+  width: 70%;
+  height: 45px;
+  font-family: "Georgia", sans-serif;
+  font-size: 15px;
+  border: 2px solid #d4aba2;
+  padding: 12px;
+  color: black;
+  font-weight: 500;
+  position: relative;
+}
+#R input:focus {
+  outline: none;
+  border-color: #ebbbb1;
+}
+#R button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #d4aba2;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+#Ra {
+  background-color: white;
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  position: relative;
+}
+.Raa {
+  background-color: white;
+  height: 50px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d1d3d4;
+  cursor: pointer;
+}
+.Raa span {
+  font-family: "Georgia", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.Raa button {
+  background-color: #d1d3d4;
+  color: white;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.completed {
+  text-decoration: line-through;
+}
